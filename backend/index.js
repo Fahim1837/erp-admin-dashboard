@@ -16,7 +16,7 @@ import mongoConnect from "./config/db.js"
 
 
 // CONFIGURATION
-dotenv.config({path: `./config.env`})
+dotenv.config()
 const app = express()
 app.use(express.json())
 app.use(morgan('dev'))
